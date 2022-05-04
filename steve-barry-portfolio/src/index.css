@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+/*  variables */
+:root{
+  --h_color: rgb(0, 176, 240);   /*  00aff0  */
+  --firstColor: rgb(0, 176, 240);
+  --secondColor: grey;
+  --thirdColor: #F3B116;
+  --bx_shadow: 5px 5px 15px grey;
+  --tx_shadow: 1px 1px 3px dimgray;
+}
+
+/****************************
+main & overarching stuff
+****************************/
 body {
   margin: 0;
   width: 100%;
@@ -9,8 +22,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow:hidden;
   position: fixed;
-  background-color: white;
 }
+#mainContent{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#bg {
+  position: fixed;top: 0;left: 0;width: 100%;height: 100%;
+  transition: all 0.3s ease-out;
+  background: linear-gradient(to right, #156785 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -53,4 +81,140 @@ h3{
   display: block;
   width: 70%;
   
+}
+
+
+
+/****************************
+Header
+****************************/
+header{
+  width: 100%;
+  height: 100px;
+  overflow:hidden;
+  position: flex;
+  z-index: 2;
+}
+#fName{
+  text-shadow: 1px 1px var(--thirdColor);
+}
+#lName{
+  animation-name: lName;
+  animation-duration: 40s;
+  animation-iteration-count: 999;
+}
+
+/****************************
+Contact
+****************************/
+#contact{
+  margin-top: 2vw;
+  z-index: 6;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  display: flex;
+}
+#burger{
+  margin-top: 2vw;
+  z-index: 6;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  display: none;
+}
+.contactIcon{
+  width: 100px;
+  max-width: 100px;
+  height: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+.contactImg{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+
+
+/****************************
+Keyframes
+****************************/
+@keyframes ball1 {
+  0%   {top: -30vh;}
+  50%  {top: 8vh;}
+  100% {top: -30vh;}
+}
+@keyframes ball2 {
+  0%   {bottom: -39vh;}
+  50%  {bottom: -1vh;}
+  100% {bottom: -39vh;}
+}
+@keyframes ball3 {
+  0%   {border: 2px solid var(--secondColor); top: -30vh;}
+  50%  {border: 2px solid var(--thirdColor); top: 8vh;}
+  100% {border: 2px solid var(--secondColor); top: -30vh;}
+}
+
+@keyframes ball4 {
+  0%   {border: 2px solid var(--thirdColor); bottom: -30vh;}
+  50%  {border: 2px solid var(--firstColor); bottom: 8vh;}
+  100% {border: 2px solid var(--thirdColor); bottom: -30vh;}
+}
+@keyframes nameH1 {
+  0%   {color: white;}
+  25%  {color: white;}
+  35%  {color: var(--secondColor);}
+  
+  55%  {color: var(--secondColor);}
+  60%  {color:white;}
+  100% {color:white;}
+}
+@keyframes lName {
+  0%   {text-shadow: 1px 1px var(--secondColor);}
+  25%  {text-shadow: 1px 1px var(--secondColor);}
+  35%  {text-shadow: 1px 1px var(--firstColor);}
+  
+  55%  {text-shadow: 1px 1px var(--firstColor);}
+  60%  {text-shadow: 1px 1px var(--secondColor);}
+  100% {text-shadow: 1px 1px var(--secondColor);}
+}
+
+
+@keyframes bwFont{
+  0%   {color:black;text-shadow: 0 0 1px white;}
+  40%  {color:black;text-shadow: 0 0 1px white;}
+  50%  {color:white;text-shadow: 0 0 1px black;}
+  90%  {color:white;text-shadow: 0 0 1px black;}
+  100% {color:black;text-shadow: 0 0 1px white;}
+}
+
+@keyframes copy {
+  0%   {color: white;}
+  20%  {color: white;}
+  30%  {color: var(--thirdColor);}
+  
+  55%  {color: var(--thirdColor);}
+  60%  {color:white;}
+  100% {color:white;}
+}
+/***********    Media keyframes ****/
+@keyframes copy550{
+  0%   {color: var(--thirdColor);}
+  100% {color: var(--thirdColor);}
+}
+
+@keyframes ball2_1060 {
+  0%   {bottom: -39vh;}
+  50%  {bottom: -1.1vh;}
+  100% {bottom: -39vh;}
 }
