@@ -37,7 +37,6 @@ const projectSchema = new Schema(
 );
 
 
-
 projectSchema
   .virtual('projectCount')
   .get(function () {
