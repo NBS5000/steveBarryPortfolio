@@ -52,16 +52,19 @@ code {
 #about, #code{
   position: relative;
   margin-top: 2vw;
-  width: 50%;
-  border-right: 10px solid #F3B116;
-  border-left: 10px solid #F3B116;
+  width: 70%;
+  border-right: 2px solid var(--thirdColor);
+  border-left: 2px solid var(--thirdColor);
+  padding-top: 5px;
   padding-bottom: 27px;
   justify-content: center;
   background: #01b0f07d;
+  /* background: var(--firstColor); */
   border-radius: 288px;
   width: 78vw;
   align-items: center;
   padding-left:20px;
+  z-index: 1000;
 }
 .aboutP{
   position: relative;
@@ -93,15 +96,45 @@ header{
   height: 100px;
   overflow:hidden;
   position: flex;
-  z-index: 2;
+  z-index: 10;
 }
 #fName{
+  color: lightgrey;
   text-shadow: 1px 1px var(--thirdColor);
+  font-weight: lighter;
 }
 #lName{
-  animation-name: lName;
+  /* animation-name: lName;
   animation-duration: 40s;
-  animation-iteration-count: 999;
+  animation-iteration-count: 999; */
+  color: dimgray;
+  
+  text-shadow: 1px 1px var(--firstColor);
+}
+
+/****************************
+Footer
+****************************/
+footer{
+  width: 100%;
+  height: 6vw;
+  overflow:hidden;
+  position: fixed;
+  bottom: 0;
+  z-index: 12;
+}
+#ack{
+  width: 100%;
+  margin-right: 20%;
+  font-size: 90%;
+  text-align: center;
+}
+#ackImg{
+  height: 30px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 /****************************
@@ -155,9 +188,9 @@ Keyframes
   100% {top: -30vh;}
 }
 @keyframes ball2 {
-  0%   {bottom: -39vh;}
-  50%  {bottom: -1vh;}
-  100% {bottom: -39vh;}
+  0%   {bottom: -30vh;}
+  50%  {bottom: -8vh;}
+  100% {bottom: -30vh;}
 }
 @keyframes ball3 {
   0%   {border: 2px solid var(--secondColor); top: -30vh;}
@@ -218,3 +251,8 @@ Keyframes
   50%  {bottom: -1.1vh;}
   100% {bottom: -39vh;}
 }
+
+
+
+
+

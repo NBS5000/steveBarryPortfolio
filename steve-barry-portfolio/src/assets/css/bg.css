@@ -1,0 +1,59 @@
+#bgBody{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#ball1{
+    border: 2px solid var(--firstColor);
+    position: absolute;
+    z-index: -5;
+    animation-name: ball1;
+}
+#ball3{
+    background-color: var(--firstColor);
+    border: 1px solid var(--secondColor);
+    position: relative;
+    z-index: 1;
+    animation-name: ball3;
+    overflow:hidden;
+}
+#ball1, #ball3{
+    height: 70vh;
+    width: 70vh;
+    border-radius: 50%;
+    top: -30vh;
+    left: -30vh;
+    animation-duration: 40s;
+    animation-iteration-count: 999;
+}
+#ball2, #ball4{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    bottom: -30vh;
+    right: -30vh;
+    z-index: -5;
+    position: absolute;
+    animation-duration: 60s;
+    animation-iteration-count: 999;
+}   
+#ball2{
+    border: 2px solid var(--thirdColor);
+    animation-name: ball2;
+    overflow:hidden;
+    bottom: -39.5vh;
+}
+#ball4{
+    background-color: var(--thirdColor);
+    border: 2px solid var(--secondColor);
+    animation-name: ball4;
+    overflow:hidden;
+}
+
