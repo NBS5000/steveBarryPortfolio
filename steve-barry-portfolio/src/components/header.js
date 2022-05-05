@@ -6,7 +6,6 @@ function Header() {
         <div>
             {/* <div id="bgBody"></div> */}
             <div id="ball1"></div>
-            <div id="ball2"></div>
             <header>
                 <div id="ball3"></div>
                 {/* <div id="hdBody"></div> */}
@@ -15,7 +14,7 @@ function Header() {
                     <span id="fName">Stephen</span><span id="lName">BARRY</span>
                 </h1>
                 
-                <h2>
+                <h2 id="fswd">
                     Full Stack Web Developer
                 </h2>
 

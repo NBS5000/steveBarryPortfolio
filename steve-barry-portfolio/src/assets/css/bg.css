@@ -39,7 +39,7 @@
     border-radius: 50%;
     bottom: -30vh;
     right: -30vh;
-    z-index: -5;
+    z-index: -1;
     position: absolute;
     animation-duration: 60s;
     animation-iteration-count: 999;
@@ -48,14 +48,17 @@
 }   
 #ball2{
     border: 2px solid var(--thirdColor);
-    /* animation-name: ball2; */
-
-    /* bottom: -20vh; */
+    animation-name: ball2;
+    overflow-y: visible;
+    z-index: 8;
+    /* bottom: -15vh; */
 }
 #ball4{
     background-color: var(--thirdColor);
     border: 2px solid var(--firstColor);
-    /* animation-name: ball4; */
-    /* bottom: -20vh; */
+    overflow-y: clip;
+    z-index: 10;
+    right: -30vh;
+    animation-name: ball4; 
 }
 

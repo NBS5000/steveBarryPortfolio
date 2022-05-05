@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutMe() {
+function TechSkills() {
     return (  
         <div id="about">
             <div id="steveImgWrap">
@@ -14,4 +14,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe;
+export default TechSkills;

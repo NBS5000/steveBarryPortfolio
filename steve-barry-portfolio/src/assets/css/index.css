@@ -143,14 +143,21 @@ header{
   margin-left: 20px;
   font-size: 200%;
 }
-
+#fswd{
+  position: fixed;
+  margin-left: 20px;
+  top: 50px;
+  z-index: 90;
+  color: var(--thirdColor);
+  text-shadow: 1px 1px var(--secondColor);
+  font-weight: lighter;
+}
 /****************************
 Footer
 ****************************/
 footer{
   width: 100%;
   height: 6vw;
-  overflow:hidden;
   position: fixed;
   bottom: 0;
   z-index: 12;
@@ -175,16 +182,25 @@ footer{
 #copy{
   font-size: 90%;
   font-weight: 100;
-  float: right;
+  right: 0;
   margin-top: 2.5vw;
   margin-right: 2vw;
   line-height: 100%;
   display: block;
   color: white ;
   text-shadow: 0.5px 0.5px 0.5px var(--firstColor);
+  z-index: 100;
+  position: absolute;
   /* animation-name: copy;
   animation-duration: 60s;
   animation-iteration-count: 999; */
+}
+#ballWrap{
+  height: 100%;
+  overflow-y: clip;
+  /* z-index: -1; */
+  position: absolute;
+  right: 0;
 }
 
 /****************************

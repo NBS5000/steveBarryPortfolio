@@ -1,12 +1,8 @@
+/* circle at top left */
 @keyframes ball1 {
     0%   {top: -30vh;}
     50%  {top: 8vh;}
     100% {top: -30vh;}
-}
-@keyframes ball2 {
-    0%   {bottom: -39vh;}
-    50%  {bottom: -1vh;}
-    100% {bottom: -39vh;}
 }
 @keyframes ball3 {
     0%   {border: 2px solid var(--secondColor); top: -30vh;}
@@ -14,11 +10,19 @@
     100% {border: 2px solid var(--secondColor); top: -30vh;}
 }
 
-@keyframes ball4 {
-    0%   {border: 2px solid var(--thirdColor); bottom: -30vh;}
-    50%  {border: 2px solid var(--firstColor); bottom: 8vh;}
-    100% {border: 2px solid var(--thirdColor); bottom: -30vh;}
+/* circle at bottom right */
+@keyframes ball2 {
+    0%   {bottom: -40vh;}
+    50%  {bottom: -10vh;}
+    100% {bottom: -40vh;}
 }
+@keyframes ball4 {
+    0%   {border: 2px solid var(--thirdColor); bottom: -40vh;}
+    50%  {border: 2px solid var(--firstColor); bottom: -10vh;}
+    100% {border: 2px solid var(--thirdColor); bottom: -40vh;}
+}
+
+
 @keyframes nameH1 {
     0%   {color: white;}
     25%  {color: white;}
