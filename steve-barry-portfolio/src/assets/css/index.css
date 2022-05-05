@@ -80,6 +80,7 @@ main content: about, skills, code
   color: rgb(20, 20, 20);
   font-weight: 100;
   font-size: 120%;
+  text-align: justify;
   
 }
 h3{
@@ -91,17 +92,20 @@ h3{
   
 }
 h5{
-  color: white;
+  color: var(--thirdColor);
   margin: 0 auto;
   margin-bottom: 15px;
-  padding-left: 30px;
+  text-shadow: 1px 1px var(--secondColor);
+  /* padding-left: 30px; */
 }
 #techList{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .skillsIcon{
-  margin-right: 8px;
+  width: 36px;
+  height: 36px;
 }
 #steveImgWrap{
   height: 98%;
@@ -250,7 +254,7 @@ Contact
   text-align: center;
 }
 .contactImg{
-  height: 50px;
-  width: 50px;
+  height: 36px;
+  width: 36px;
 }
 
