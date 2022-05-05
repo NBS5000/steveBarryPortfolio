@@ -86,7 +86,9 @@ h3{
   
 }
 
-
+h1{
+  z-index: 1000;
+}
 
 /****************************
 Header
@@ -102,13 +104,14 @@ header{
   color: lightgrey;
   text-shadow: 1px 1px var(--thirdColor);
   font-weight: lighter;
+  z-index: 1000;
 }
 #lName{
   /* animation-name: lName;
   animation-duration: 40s;
   animation-iteration-count: 999; */
   color: dimgray;
-  
+  z-index: 1000;
   text-shadow: 1px 1px var(--firstColor);
 }
 
@@ -124,7 +127,7 @@ footer{
   z-index: 12;
 }
 #ack{
-  width: 100%;
+  width: 80%;
   margin-right: 20%;
   font-size: 90%;
   text-align: center;
@@ -135,6 +138,19 @@ footer{
   display: block;
   margin: 0 auto;
   margin-bottom: 8px;
+}
+#copy{
+  font-size: 90%;
+  font-weight: 100;
+  float: right;
+  margin-top: 2.5vw;
+  margin-right: 2vw;
+  line-height: 100%;
+  display: block;
+  color: var(--firstColor);
+  /* animation-name: copy;
+  animation-duration: 60s;
+  animation-iteration-count: 999; */
 }
 
 /****************************
@@ -173,86 +189,4 @@ Contact
   height: 50px;
   width: 50px;
 }
-
-
-
-
-
-
-/****************************
-Keyframes
-****************************/
-@keyframes ball1 {
-  0%   {top: -30vh;}
-  50%  {top: 8vh;}
-  100% {top: -30vh;}
-}
-@keyframes ball2 {
-  0%   {bottom: -30vh;}
-  50%  {bottom: -8vh;}
-  100% {bottom: -30vh;}
-}
-@keyframes ball3 {
-  0%   {border: 2px solid var(--secondColor); top: -30vh;}
-  50%  {border: 2px solid var(--thirdColor); top: 8vh;}
-  100% {border: 2px solid var(--secondColor); top: -30vh;}
-}
-
-@keyframes ball4 {
-  0%   {border: 2px solid var(--thirdColor); bottom: -30vh;}
-  50%  {border: 2px solid var(--firstColor); bottom: 8vh;}
-  100% {border: 2px solid var(--thirdColor); bottom: -30vh;}
-}
-@keyframes nameH1 {
-  0%   {color: white;}
-  25%  {color: white;}
-  35%  {color: var(--secondColor);}
-  
-  55%  {color: var(--secondColor);}
-  60%  {color:white;}
-  100% {color:white;}
-}
-@keyframes lName {
-  0%   {text-shadow: 1px 1px var(--secondColor);}
-  25%  {text-shadow: 1px 1px var(--secondColor);}
-  35%  {text-shadow: 1px 1px var(--firstColor);}
-  
-  55%  {text-shadow: 1px 1px var(--firstColor);}
-  60%  {text-shadow: 1px 1px var(--secondColor);}
-  100% {text-shadow: 1px 1px var(--secondColor);}
-}
-
-
-@keyframes bwFont{
-  0%   {color:black;text-shadow: 0 0 1px white;}
-  40%  {color:black;text-shadow: 0 0 1px white;}
-  50%  {color:white;text-shadow: 0 0 1px black;}
-  90%  {color:white;text-shadow: 0 0 1px black;}
-  100% {color:black;text-shadow: 0 0 1px white;}
-}
-
-@keyframes copy {
-  0%   {color: white;}
-  20%  {color: white;}
-  30%  {color: var(--thirdColor);}
-  
-  55%  {color: var(--thirdColor);}
-  60%  {color:white;}
-  100% {color:white;}
-}
-/***********    Media keyframes ****/
-@keyframes copy550{
-  0%   {color: var(--thirdColor);}
-  100% {color: var(--thirdColor);}
-}
-
-@keyframes ball2_1060 {
-  0%   {bottom: -39vh;}
-  50%  {bottom: -1.1vh;}
-  100% {bottom: -39vh;}
-}
-
-
-
-
 
