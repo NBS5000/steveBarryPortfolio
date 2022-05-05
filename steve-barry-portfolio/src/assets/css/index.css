@@ -46,7 +46,7 @@ body {
 }
 
 /****************************
-main content: about, code
+main content: about, skills, code
 ****************************/
 
 /* code {
@@ -55,7 +55,7 @@ main content: about, code
 } */
 
 
-#about, #code{
+#about, #code, #skills{
   position: relative;
   margin-top: 2vw;
   width: 70%;
@@ -71,7 +71,7 @@ main content: about, code
   padding-left:20px;
   z-index: 1000;
 }
-.aboutP{
+.aboutP, #techList, h5{
   position: relative;
   margin: 0 auto;
   margin-bottom: 1vw;
@@ -89,6 +89,19 @@ h3{
   display: block;
   width: 70%;
   
+}
+h5{
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+#techList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillsIcon{
+  margin-right: 8px;
 }
 #steveImgWrap{
   height: 98%;
@@ -190,7 +203,8 @@ footer{
   color: white ;
   text-shadow: 0.5px 0.5px 0.5px var(--firstColor);
   z-index: 100;
-  position: absolute;
+  position: fixed;
+  width: fit-content;
   /* animation-name: copy;
   animation-duration: 60s;
   animation-iteration-count: 999; */
