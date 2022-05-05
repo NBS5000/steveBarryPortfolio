@@ -10,7 +10,7 @@ Media CSS file
         margin-bottom: 10px;
     }
     #ball2{
-        animation-name: ball2_1060;
+        /* animation-name: ball2_1060; */
     }
     #about, #code{
         margin-top: 4vw;

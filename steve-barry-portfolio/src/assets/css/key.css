@@ -58,12 +58,12 @@
 }
 /***********    Media keyframes ****/
 @keyframes copy550{
-    0%   {color: var(--thirdColor);}
-    100% {color: var(--thirdColor);}
+    /* 0%   {color: var(--thirdColor);}
+    100% {color: var(--thirdColor);} */
 }
 
 @keyframes ball2_1060 {
-    0%   {bottom: -39vh;}
+    /* 0%   {bottom: -39vh;}
     50%  {bottom: -1.1vh;}
-    100% {bottom: -39vh;}
+    100% {bottom: -39vh;} */
 }

@@ -43,17 +43,19 @@
     position: absolute;
     animation-duration: 60s;
     animation-iteration-count: 999;
+    bottom: -28vh;
+    overflow:hidden;
 }   
 #ball2{
     border: 2px solid var(--thirdColor);
-    animation-name: ball2;
-    overflow:hidden;
-    bottom: -39.5vh;
+    /* animation-name: ball2; */
+
+    /* bottom: -20vh; */
 }
 #ball4{
     background-color: var(--thirdColor);
-    border: 2px solid var(--secondColor);
-    animation-name: ball4;
-    overflow:hidden;
+    border: 2px solid var(--firstColor);
+    /* animation-name: ball4; */
+    /* bottom: -20vh; */
 }
 
