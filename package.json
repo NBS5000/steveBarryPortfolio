@@ -2,7 +2,7 @@
   "name": "steve-barry-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NBS5000.github.io/steve-barry-portfolio",
+  "homepage": "https://NBS5000.github.io/steveBarryPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
