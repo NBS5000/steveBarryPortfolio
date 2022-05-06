@@ -17,9 +17,9 @@
     100% {bottom: -40vh;}
 }
 @keyframes ball4 {
-    0%   {border: 2px solid var(--thirdColor); bottom: -40vh;}
-    50%  {border: 2px solid var(--firstColor); bottom: -10vh;}
-    100% {border: 2px solid var(--thirdColor); bottom: -40vh;}
+    0%   {bottom: -40vh;}
+    50%  {bottom: -10vh;}
+    100% {bottom: -40vh;}
 }
 
 

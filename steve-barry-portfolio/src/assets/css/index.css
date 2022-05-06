@@ -29,6 +29,8 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  overflow: clip;
+  padding-top: var(--headerHeight);
 }
 #bg {
   position: fixed;
@@ -43,6 +45,9 @@ body {
 .marker{
   font-family: 'Permanent Marker';
   font-weight: lighter;
+}
+#app{
+  position: relative;
 }
 
 /****************************
@@ -71,6 +76,9 @@ main content: about, skills, code
   padding-left:20px;
   z-index: 1000;
 }
+#about{
+  overflow: clip;
+}
 .aboutP, #techList, h5{
   position: relative;
   margin: 0 auto;
@@ -96,7 +104,6 @@ h5{
   margin: 0 auto;
   margin-bottom: 15px;
   text-shadow: 1px 1px var(--secondColor);
-  /* padding-left: 30px; */
 }
 #techList{
   display: flex;
@@ -106,6 +113,7 @@ h5{
 .skillsIcon{
   width: 36px;
   height: 36px;
+  margin: 0 auto;
 }
 #steveImgWrap{
   height: 98%;
@@ -120,6 +128,19 @@ h5{
   border-radius: 50%;
   display: block;
 }
+#skillHover{
+  display: block;
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  font-size: x-large;
+  display: block;
+  /* position: fixed; */
+}
+#hoverDiv{
+  width: 100%;
+}
 
 
 /****************************
@@ -127,31 +148,31 @@ Header
 ****************************/
 header{
   width: 100%;
-  height: 100px;
+  height: var(--headerHeight);
   overflow:hidden;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 10;
+}
+#headerWrap{
+  position: fixed;
+  width: 100%;
 }
 #fName{
   color: lightgrey;
   text-shadow: 1px 1px var(--thirdColor);
   font-weight: lighter;
-  position: absolute;
-  /* display:inline-block; */
-  z-index: 100;
-  top: 10px;
   width: fit-content;
 }
 #lName{
-  /* animation-name: lName;
-  animation-duration: 40s;
-  animation-iteration-count: 999; */
   color: dimgray;
   text-shadow: 1px 1px var(--firstColor);
+  left: 147px;
+}
+#fName, #lName{
   position: absolute;
   z-index: 100;
   top: 10px;
-  left: 147px;
 }
 #fullName{
   display:flex;
@@ -161,7 +182,7 @@ header{
   font-size: 200%;
 }
 #fswd{
-  position: fixed;
+  position: absolute;
   margin-left: 20px;
   top: 50px;
   z-index: 90;
@@ -174,10 +195,12 @@ Footer
 ****************************/
 footer{
   width: 100%;
-  height: 6vw;
+  height:fit-content;
+  min-height: 6vw;
   position: fixed;
   bottom: 0;
   z-index: 12;
+  margin-top: 50px;
 }
 #ack{
   width: 60%;
@@ -188,6 +211,8 @@ footer{
   display: block;
   bottom: 0;
   height: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 #ackImg{
   height: 30px;
@@ -209,16 +234,17 @@ footer{
   z-index: 100;
   position: fixed;
   width: fit-content;
-  /* animation-name: copy;
-  animation-duration: 60s;
-  animation-iteration-count: 999; */
 }
 #ballWrap{
   height: 100%;
   overflow-y: clip;
-  /* z-index: -1; */
   position: absolute;
   right: 0;
+}
+#ftBg{
+  width: 100%;
+  height: 200px;
+  bottom: 0;
 }
 
 /****************************

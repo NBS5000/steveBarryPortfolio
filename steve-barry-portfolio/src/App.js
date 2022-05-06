@@ -2,20 +2,22 @@ import './assets/css/App.css';
 import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Skills from './components/skills';
+import Buffer from './components/buffer';
 import Footer from './components/footer';
 import React from 'react';
 
 function App() {
   return (
-    <div>
+    <div id="app">
       <Header />
       <div id="mainContent">
-      <AboutMe />
+        <AboutMe />
 
-      <Skills />
+        <Skills />
 
 
       </div>
+      <Buffer />
       <Footer />
     </div>
   );

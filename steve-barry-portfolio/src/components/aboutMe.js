@@ -4,7 +4,7 @@ function AboutMe() {
     return (  
         <div id="about">
             <div id="steveImgWrap">
-                <img id="steveImg" src="./assets/images/steve.jpg" />
+                <img id="steveImg" src="./assets/images/steve.jpg" alt="Steve Barry"/>
             </div>
             <h3 className="marker">ABOUT ME</h3>
             <p className='aboutP'>A creative problem solver and experienced developer, completing a certificate in Full Stack Web Development through. Having spent over a decade working in the technical areas of insurance, an opportunity arose to switch to something I had long held a passion and interest for: coding. Whilst living in Brasil, I studied web development through TAFE distance learning. Upon returning to Australia, I completed further courses, culminating in two TAFE diplomas, Software Development, and Web Development.</p>

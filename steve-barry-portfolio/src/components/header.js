@@ -3,7 +3,7 @@ import Contact from './contact';
 
 function Header() {
     return (  
-        <div>
+        <div id="headerWrap">
             {/* <div id="bgBody"></div> */}
             <div id="ball1"></div>
             <header>
