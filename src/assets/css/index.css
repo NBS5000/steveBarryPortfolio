@@ -49,7 +49,7 @@ main content: about, skills, code
 } */
 
 
-#about, #code, #skills{
+#about, #code, #skills, #personal{
   position: relative;
   margin-top: 2vw;
   width: 70%;
