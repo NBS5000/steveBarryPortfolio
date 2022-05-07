@@ -6,6 +6,7 @@ CSS file for variables
 :root{
     --h_color: rgb(0, 176, 240);   /*  00aff0  */
     --firstColor: rgb(0, 176, 240);
+    --firstColor_a7: rgba(0, 176, 240, 0.7);
     --secondColor: grey;
     --thirdColor: #F3B116;
     --bx_shadow: 5px 5px 15px grey;
