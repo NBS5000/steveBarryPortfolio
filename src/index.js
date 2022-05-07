@@ -7,7 +7,7 @@ import './assets/css/bg.css';
 import './assets/css/index.css';
 import './assets/css/headFoot.css';
 import './assets/css/modal.css';
-// import './assets/css/scroll.css';
+import './assets/css/scroll.css';
 import './assets/css/media.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

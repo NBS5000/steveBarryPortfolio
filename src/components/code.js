@@ -3,7 +3,7 @@ import React from 'react';
 function Code() {
     return (  
         <div id="code">
-                <h3>PROJECT EXAMPLES</h3>
+                <h3 className="marker">PROJECT EXAMPLES</h3>
                 <div id="displayList" className="scroll">
                     <div className="itemBox">
                         <div className="circle">
