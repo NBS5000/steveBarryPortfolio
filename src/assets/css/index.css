@@ -190,6 +190,7 @@ footer{
   bottom: 0;
   z-index: 12;
   margin-top: 50px;
+  backdrop-filter: blur(6px);
 }
 #ack{
   width: 60%;
