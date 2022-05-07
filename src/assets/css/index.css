@@ -68,13 +68,13 @@ main content: about, skills, code
 #about{
   overflow: clip;
 }
-.aboutP, #techList, h5{
+.aboutP, #techList, h5, .itemP{
   position: relative;
   margin: 0 auto;
   margin-bottom: 1vw;
   display: block;
   width: 70%;
-  color: rgb(20, 20, 20);
+  color: var(--fontColor);
   font-weight: 100;
   font-size: 120%;
   text-align: justify;
@@ -129,7 +129,9 @@ h5{
 #hoverDiv{
   width: 100%;
 }
-
+#ackLink{
+  text-decoration: none;
+}
 
 
 /****************************

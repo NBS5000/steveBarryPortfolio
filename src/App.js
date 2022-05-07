@@ -2,6 +2,7 @@ import './assets/css/App.css';
 import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Skills from './components/skills';
+import Code from './components/code';
 import Personal from './components/personal';
 import Modals from './components/modals';
 import Buffer from './components/buffer';
@@ -17,6 +18,7 @@ function App() {
 
         <Skills />
 
+        <Code />
         <Personal />
 
       </div>
