@@ -47,6 +47,9 @@ function TechSkills() {
                 <a href="https://www.markdownguide.org/" target="_blank" rel="noopener noreferrer">
                     <img className="skillsIcon" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="Markdown" />
                 </a>
+                <a href="https://handlebarsjs.com//" target="_blank" rel="noopener noreferrer">
+                    <img className="skillsIcon" src="https://handlebarsjs.com/images/handlebars_logo.png" alt="Handlebars.JS" />
+                </a>
             </div> 
         </div>
     )
