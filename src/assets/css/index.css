@@ -183,9 +183,9 @@ Footer
 ****************************/
 footer{
   width: 100%;
-  /* height:fit-content; */
-  height: 6vw;
-  /* min-height: 4vw; */
+  height:fit-content;
+  /* height: 6vw; */
+  min-height: 4vw;
   position: fixed;
   bottom: 0;
   z-index: 12;
