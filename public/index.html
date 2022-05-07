@@ -50,7 +50,7 @@
     let skill;
     const skillIcon = document.querySelectorAll('.skillsIcon');
     skillIcon.forEach(btn => {
-            btn.onmouseenter = (event) => {
+            btn.onmouseover = (event) => {
                 skill = event.target.getAttribute("alt");
                 console.log("test");
                 document.getElementById("skillHover").textContent = skill;
