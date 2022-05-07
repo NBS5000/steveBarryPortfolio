@@ -190,7 +190,6 @@ footer{
   bottom: 0;
   z-index: 12;
   margin-top: 50px;
-  backdrop-filter: blur(30px);
 }
 #ack{
   width: 60%;
@@ -203,6 +202,8 @@ footer{
   height: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
 }
 #ackImg{
   height: 30px;
