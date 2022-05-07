@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
-/*  variables */
-:root{
-  --h_color: rgb(0, 176, 240);   /*  00aff0  */
-  --firstColor: rgb(0, 176, 240);
-  --secondColor: grey;
-  --thirdColor: rgb(243, 177, 22); /* #F3B116 */
-  --blueBgAlpha: rgba(1, 176, 240, 0.49); /* #01b0f07d */
-  --bx_shadow: 5px 5px 15px grey;
-  --tx_shadow: 1px 1px 3px dimgray;
-}
-
 /****************************
 main & overarching stuff
 ****************************/
