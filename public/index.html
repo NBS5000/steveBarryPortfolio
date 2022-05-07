@@ -65,4 +65,11 @@
         }
     });
   </script>
+  <script>
+    $(document).scroll(function(){
+    $("html").css("color","blue");
+    if($(document).scrollTop()>"100")
+      $("html").css("color","red");
+});
+  </script>
 </html>
