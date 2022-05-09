@@ -1,6 +1,9 @@
 import React from 'react';
 
 function MenuModal() {
+
+
+
     return ( 
             <div id="myModal_menu" className="modal">
                 <div className="modal-content">
@@ -44,7 +47,7 @@ function MenuModal() {
                                     <img className="contactImg" src="./assets/images/resume.png" alt="Resume Icon" />
                                     <p id="viewCvP" className="contactP">Steve Barry - Resume</p>
                                 </a>
-                                <a id="downCV" className="modContactLink" href="./assets/doc/SteveBarry_CV.pdf" download>
+                                <a id="downCV" className="modContactLink" href="%PUBLIC_URL%/assets/doc/SteveBarry_CV.pdf" download>
                                     <img id="downCvImg" className="contactImg" src="./assets/images/download.png" alt="Download Icon" />
                                 </a>
                             </div>
