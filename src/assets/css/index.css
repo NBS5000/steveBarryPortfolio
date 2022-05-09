@@ -43,12 +43,6 @@ body {
 main content: about, skills, code
 ****************************/
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-
 #about, #code, #skills, #personal{
   position: relative;
   margin-top: 2vw;

@@ -23,8 +23,8 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    height: 220px;
-    margin: 0 auto;
+    height: 240px;
+    /* margin: 0 auto; */
 }
 
 
