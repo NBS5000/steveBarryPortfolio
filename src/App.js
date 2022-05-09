@@ -22,7 +22,7 @@ function App() {
         <Personal />
 
       </div>
-      {/* <Modals /> */}
+      <Modals />
       <Buffer />
       <Footer />
     </div>

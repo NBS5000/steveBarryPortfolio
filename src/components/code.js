@@ -73,7 +73,7 @@ function Code() {
                         <h4 className="itemH4">Cricket</h4>
                         <p className="itemP">Fancy a game?</p>
                     </div>
-                    <button className="projViewBtn" onclick="cricket()" data-value="cricket"></button>
+                    <button className="projViewBtn" onClick="cricket()" data-value="cricket"></button>
                 </div>
             </div>
         </div>

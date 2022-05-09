@@ -10,7 +10,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 50; /* Sit on top */
+    z-index: 5000; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
