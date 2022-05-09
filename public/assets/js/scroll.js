@@ -6,7 +6,6 @@ el.addEventListener("wheel", function (event) {
     let y = el.scrollTop;
 
     if (event.deltaY > 0) {
-        
         x += 80;
     } else {
         x -= 80;
