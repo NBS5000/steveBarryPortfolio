@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Contact from './contact';
+import Modals from './modals';
 
 function Header() {
+    const [view, setView] = useState("");
     return (  
         <div id="headerWrap">
             {/* <div id="bgBody"></div> */}
@@ -18,8 +20,8 @@ function Header() {
                     Full Stack Web Developer
                 </h2>
 
-                <Contact />
-
+                <Contact setView={setView}/>
+                <Modals view={view} />
                 <div id="burger">
                     <div className="contactIcon">
                         <img className="contactImg" src="./assets/images/burger.png" alt="Email Icon" />

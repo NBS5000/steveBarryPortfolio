@@ -1,6 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function Contact() {
+function Contact({setView}) {
+
+    function modal(event){
+        setView(event.target.getAttribute("alt"));
+        console.log("test");
+    }
+
     return (  
         <div id="contact">
             <div className="contactIcon">
@@ -13,7 +19,7 @@ function Contact() {
                 <a href="https://www.aedin.com/in/stephen-barry-676306108/" target="_blank" rel="noopener noreferrer"><img className="contactImg" src="./assets/images/linkedin.png" alt="aedIn Icon" /></a>
             </div>
             <div className="contactIcon" id="burger2">
-                <img className="contactImg" src="./assets/images/burger.png" alt="Burger Icon" />
+                <img onClick={modal} className="contactImg" src="./assets/images/burger.png" alt="Burger Icon" />
             </div>
         </div>
     )

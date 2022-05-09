@@ -1,11 +1,21 @@
 import React from 'react';
 
-function MenuModal() {
+function MenuModal({view}) {
+    let styles;
+    if ({view}){
+        styles = {
+            display: "block"
+        }
+        console.log("menu: " + {view});
+    }else{
+        styles = {
+            display: "none"
+        }
+    }
 
-
-
+    // styles={display: view ? 'block' : 'none' }
     return ( 
-            <div id="myModal_menu" className="modal">
+            <div id="myModal_menu" className="modal" style={styles}>
                 <div className="modal-content">
                     <div id = "container_menu">         
                         <h3>Contact Me</h3>   
