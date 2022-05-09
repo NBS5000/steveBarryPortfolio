@@ -25,6 +25,7 @@
     white-space: nowrap;
     height: 240px;
     margin: 0 auto;
+    touch-action: none;
 }
 
 

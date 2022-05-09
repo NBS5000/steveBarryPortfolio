@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
-function HoverSkill() {
+function HoverSkill({skill}) {
 
     return (  
         <div id="hoverDiv">
-            <h4 id="skillHover" className="marker"> </h4>
+            <h4 id="skillHover" className="marker">{skill}</h4>
         </div>
     )
 }

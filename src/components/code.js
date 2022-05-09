@@ -1,10 +1,24 @@
 import React from 'react';
 
 function Code() {
+
+    const onWheel = (event) => {
+        event.preventDefault();
+        let x = event.target.scrollLeft;
+        let y = event.target.scrollTop;
+    
+        if (event.deltaY > 0) {
+            x += 80;
+        } else {
+            x -= 80;
+        }
+        event.target.scrollTo(x,y);
+        console.log("test");
+    }
     return (  
         <div id="code">
             <h3 className="marker">PROJECT EXAMPLES</h3>
-            <div id="displayList" className="scroll">
+            <div id="displayList" className="scroll" onWheel={onWheel}>
                 <div className="itemBox">
                     <div className="circle">
                         <img className="itemImg" src="./assets/images/mosEspa.PNG" alt="" />
