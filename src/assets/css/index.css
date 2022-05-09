@@ -59,6 +59,9 @@ main content: about, skills, code
   padding-left:20px;
   z-index: 1000;
 }
+#code{
+  width: 100%;
+}
 #about{
   overflow: clip;
 }
@@ -112,19 +115,17 @@ h5{
 }
 #skillHover{
   display: block;
-  width: 80%;
+  width: 100%;
   text-align: center;
   color: white;
   margin: 0 auto;
   font-size: x-large;
   display: block;
-  /* position: fixed; */
-}
-#hoverDiv{
-  width: 100%;
+  position: absolute;
 }
 #ackLink{
   text-decoration: none;
+  color: var(--fontColor);
 }
 
 
