@@ -18,7 +18,7 @@ function MenuModal() {
                             <div className="contactIcon">
                                 <a className="modContactLink" href="https://github.com/NBS5000" target="_blank">
                                     <img className="contactImg" src="./assets/images/github.png" alt="Github Icon" />
-                                    <p className="contactP">nbs5000</p>
+                                    <p className="contactP">https://github.com/NBS5000</p>
                                 </a>
                             </div>
                         </div>

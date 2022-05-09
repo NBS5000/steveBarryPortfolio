@@ -47,17 +47,7 @@
 
   <script src="./assets/js/bgFade.js"></script>
   <script src="./assets/js/modal.js"></script>
-  <script>
-    /* hover script */
-    let skill;
-    const skillIcon = document.querySelectorAll('.skillsIcon');
-    skillIcon.forEach(btn => {
-        btn.onmouseover = (event) => {
-            skill = event.target.getAttribute("alt");
-            document.getElementById("skillHover").textContent = skill;
-        }
-    });
-  </script>
+  <script src="./assets/js/skill.js"></script>
   <script>
     /* scroll script */
     const el = document.getElementById("displayList");
