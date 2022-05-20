@@ -38,6 +38,9 @@ body {
 #app{
   position: relative;
 }
+button{
+  cursor: pointer;
+}
 
 /****************************
 main content: about, skills, code
@@ -57,13 +60,17 @@ main content: about, skills, code
   width: 78vw;
   align-items: center;
   padding-left:20px;
-  z-index: 500;
+  z-index: 8;
 }
 #code{
   width: 100%;
+  z-index: 15;
 }
 #about{
   overflow: clip;
+}
+#personal{
+  z-index: 4;
 }
 .aboutP, #techList, h5, .itemP{
   position: relative;
@@ -75,7 +82,7 @@ main content: about, skills, code
   font-weight: 100;
   font-size: 120%;
   text-align: justify;
-  z-index: 500;
+  z-index: 2500;
 }
 h3{
   margin: 1vw auto;
@@ -107,12 +114,14 @@ h5{
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2500;
 }
 #steveImg{
   height: 120px;
   width: 120px;
   border-radius: 50%;
   display: block;
+  z-index: 2500;
 }
 #skillHover{
   display: block;
@@ -135,7 +144,7 @@ Contact
 ****************************/
 #contact{
   margin-top: 2vw;
-  z-index: 10000;
+  z-index: 10;
   float: right;
   top: 0;
   right: 0;

@@ -26,6 +26,7 @@ function Header() {
                         <img className="contactImg" src="./assets/images/burger.png" alt="Email Icon" />
                     </div>
                 </div>
+                <div id="headerBlur"></div>
             </header>
         </div>
     )

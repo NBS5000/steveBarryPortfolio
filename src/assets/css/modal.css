@@ -11,7 +11,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     /* display: none; Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 9999; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 70px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -27,13 +27,14 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 390px;
+    width: 500px;
     border-radius: 25px;
-    z-index: 10001;
 }
 .modal-content_proj{
     width: 600px;
-    height: 600px;
+    height: 800px;
+    min-height: 600px;
+    max-height: 800px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -68,6 +69,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
 }
 .modal-content .contactImg{
     max-width: 50px;
+    margin-left: 50px;
 }
 .modal-content h3{
     color: var(--firstColor);
@@ -91,6 +93,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     margin-top: 17px;
     text-align: left;
     width: 290px;
+    flex-grow: 1;
 }
 #optionsCV{
     width: 100%;
@@ -137,4 +140,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+#projModal{
+    z-index:10000;
 }
