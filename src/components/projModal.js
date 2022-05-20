@@ -4,10 +4,10 @@ function ProjModal() {
     return ( 
         <div id="projModal" className="modal">
             <div className="modal-content_proj">
-                <h5 id="modalTitle"></h5>
+                <h5 id="modalTitle">x</h5>
                 <p id="modalAbout"></p>
                 <div id="frameDiv">
-                    <iframe id="modalView" src="" frameBorder="0"></iframe>
+                    <iframe title="projPrev" id="modalView" src="" frameBorder="0"></iframe>
                 </div>
                 <div id="projBtnSet">
                     <button id="visit" className="modBtn" onClick="visitPage(value)" value="">Visit</button>

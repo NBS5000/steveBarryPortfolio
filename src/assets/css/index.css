@@ -57,7 +57,7 @@ main content: about, skills, code
   width: 78vw;
   align-items: center;
   padding-left:20px;
-  z-index: 1000;
+  z-index: 500;
 }
 #code{
   width: 100%;
@@ -75,6 +75,7 @@ main content: about, skills, code
   font-weight: 100;
   font-size: 120%;
   text-align: justify;
+  z-index: 500;
 }
 h3{
   margin: 1vw auto;
@@ -134,7 +135,7 @@ Contact
 ****************************/
 #contact{
   margin-top: 2vw;
-  z-index: 6;
+  z-index: 10000;
   float: right;
   top: 0;
   right: 0;
@@ -153,6 +154,7 @@ Contact
   height: 150px;
   width: 300px;
   display: none;
+  cursor: pointer;
 }
 .contactIcon{
   width: 100px;
@@ -166,3 +168,10 @@ Contact
   width: 36px;
 }
 
+
+.displayBlock{
+  display: block;
+}
+.dispNone{
+  display: none;
+}
