@@ -233,7 +233,7 @@ Media CSS file
     .modal {
         /* display: none; Hidden by default */
         position: fixed; /* Stay in place */
-        z-index: 99999; /* Sit on top */
+        z-index: 9999; /* Sit on top */
         padding-top: 70px; /* Location of the box */
         left: 0;
         top: 0;
@@ -245,6 +245,15 @@ Media CSS file
         text-align: center;
     }
 
+    .modal-content, .modal-content_proj {
+        z-index: 9999;
+        background-color: white;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        border-radius: 25px;
+    }
 
     .modal-content_proj{
         width: 80%;
@@ -255,7 +264,9 @@ Media CSS file
         flex-wrap: wrap;
         text-align: center;
     }
-
+    .contactP{
+        width: 70%;
+    }
 
     #modalTitle{
         margin: 0 auto;

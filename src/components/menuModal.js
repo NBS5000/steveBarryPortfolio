@@ -1,15 +1,7 @@
 import React from 'react';
 
 function MenuModal({view}) {
-    // let v = view;
-    // let s;
-    // if(view){
-    //     s = "display:block"
-    //     console.log("display:" + view)
-    // }else{
-    //     s = "display:none"
-    // }
-    console.log(view);
+
     return ( 
             <div id="myModal_menu" className="modal" style={{view}}>
                 <div className="modal-content">
@@ -35,7 +27,7 @@ function MenuModal({view}) {
                             <div className="contactIcon">
                                 <a className="modContactLink" href="https://www.linkedin.com/in/stephen-barry-676306108/" target="_blank"  rel="noopener noreferrer">
                                     <img className="contactImg" src="./assets/images/linkedin.png" alt="LinkedIn Icon" />
-                                    <p className="contactP">https://www.linkedin.com/in/stephen-barry-676306108/</p>
+                                    <p className="contactP">https://www.linkedin.com/in/<br/>stephen-barry-676306108/</p>
                                 </a>
                             </div>
                         </div>
