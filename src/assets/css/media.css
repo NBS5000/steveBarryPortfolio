@@ -93,18 +93,16 @@ Media CSS file
         width: 100%;
         text-align: center;
     }
-    #about, #code{
-        margin-top: 4vw;
+    #about, #code, #skills{
+        margin-top: 4vh;
         width: 50%;
-        border-right: 10px solid #F3B116;
-        border-left: 10px solid #F3B116;
         padding-bottom: 27px;
         justify-content: center;
-        background: #01b0f07d;
         border-radius: 100px;
-        width: 78vw;
+        width: 80vw;
         align-items: center;
-        padding-left:20px;
+        padding-left: 0;
+        height:fit-content;
     }
     #contact{
         display: none;
@@ -116,5 +114,23 @@ Media CSS file
     }
     .contactIcon{
         margin: 0;
+    }
+    #steveImgWrap{
+        height: 18%;
+        top: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #steveImg{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    }
+    h5{
+        text-align: center;
     }
 }
