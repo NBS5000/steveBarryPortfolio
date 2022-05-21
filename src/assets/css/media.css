@@ -64,6 +64,7 @@ Media CSS file
     }
     #mainContent{
         padding-bottom:100px;
+        width: 80%;
     }
     #copy{
         width: 100%;
@@ -209,6 +210,8 @@ Media CSS file
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
+    overflow-y: none;
+    scroll-y: none;
     white-space: nowrap;
     height: 180px;
     margin: 0 auto;
