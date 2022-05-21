@@ -296,4 +296,7 @@ Media CSS file
     #projModal{
         z-index:10000;
     }
+    .modal-content .contactImg{
+        margin-left: 20px;
+    }
 }
