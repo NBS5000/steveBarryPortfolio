@@ -15,11 +15,8 @@ Media CSS file
     #about, #code{
         margin-top: 4vw;
         width: 50%;
-        border-right: 10px solid #F3B116;
-        border-left: 10px solid #F3B116;
         padding-bottom: 27px;
         justify-content: center;
-        background: #01b0f07d;
         border-radius: 180px;
         width: 78vw;
         align-items: center;
@@ -44,15 +41,15 @@ Media CSS file
     #about, #code{
         margin-top: 4vw;
         width: 50%;
-        border-right: 10px solid #F3B116;
-        border-left: 10px solid #F3B116;
         padding-bottom: 27px;
         justify-content: center;
-        background: #01b0f07d;
         border-radius: 100px;
         width: 78vw;
         align-items: center;
         padding-left:20px;
+    }
+    #displayList{
+        width: 80%;
     }
 }
 @media screen and (max-width:550px) {
@@ -110,7 +107,7 @@ Media CSS file
     #code{
         height:250px;
     }
-    #contact{
+    #wideContact{
         display: none;
     }
     #burger{

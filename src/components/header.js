@@ -21,11 +21,7 @@ function Header() {
 
                 <Contact />
                 
-                <div id="burger">
-                    <div className="contactIcon">
-                        <img className="contactImg" src="./assets/images/burger.png" alt="Email Icon" />
-                    </div>
-                </div>
+
                 <div id="headerBlur"></div>
             </header>
         </div>
