@@ -74,6 +74,7 @@ Media CSS file
         animation-duration: 60s;
         animation-iteration-count: 999;
         margin:1%;
+        position: fixed;
     }
     .aboutP{
         margin-top: 2vh;
@@ -92,7 +93,7 @@ Media CSS file
         width: 100%;
         text-align: center;
     }
-    #about, #code, #skills{
+    #about, #code, #skills, #personal{
         margin-top: 4vh;
         width: 50%;
         padding-bottom: 27px;
@@ -105,7 +106,7 @@ Media CSS file
         overflow-x: hidden;
     }
     #code{
-        height:250px;
+        height:260px;
     }
     #wideContact{
         display: none;
@@ -205,13 +206,13 @@ Media CSS file
 
     #displayList{
         display: flex;
-        width: 80%;
+        width: 90%;
         flex-direction: row;
         flex-wrap: nowrap;
         overflow-x: auto;
         overflow-y: none;
         white-space: nowrap;
-        height: 170px;
+        height: 160px;
         margin: 0 auto;
         touch-action: auto;
     }
@@ -229,7 +230,20 @@ Media CSS file
     }
 
 
-
+    .modal {
+        /* display: none; Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 99999; /* Sit on top */
+        padding-top: 70px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+        text-align: center;
+    }
 
 
     .modal-content_proj{
