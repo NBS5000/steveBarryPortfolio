@@ -299,4 +299,7 @@ Media CSS file
     .modal-content .contactImg{
         margin-left: 20px;
     }
+    #viewCV{
+        width: 170px;
+    }
 }
