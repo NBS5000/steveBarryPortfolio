@@ -133,10 +133,7 @@ h5{
   display: block;
   position: absolute;
 }
-#ackLink{
-  text-decoration: none;
-  color: var(--fontColor);
-}
+
 
 
 /****************************
@@ -176,11 +173,12 @@ Contact
   height: 36px;
   width: 36px;
 }
-
-
 .displayBlock{
   display: block;
 }
 .dispNone{
   display: none;
+}
+#burger2{
+  cursor: pointer;
 }
