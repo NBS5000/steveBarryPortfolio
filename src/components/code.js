@@ -75,7 +75,6 @@ function Code() {
                 repoTitle = code.replace(/([A-Z])/g, ' $1').trim();
                 repoTitle2 = repoTitle.charAt(0).toUpperCase() + repoTitle.slice(1);
                 
-
                 setModView({
                     title: repoTitle2,
                     about: about,
