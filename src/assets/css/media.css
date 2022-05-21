@@ -79,7 +79,8 @@ Media CSS file
         margin:1%;
     }
     .aboutP{
-        margin-bottom: 3vw;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
         width: 85%;
         font-size: 110%;
         text-align: justify;
@@ -144,77 +145,133 @@ Media CSS file
 
 
 
-    
-.itemBox{
-    height:151px;
-    width: 151px;
-    border: 1px solid green;
-    border-radius: 50%;
-    margin-right: 20px;
-    position: relative;
-} 
-.circle { 
-    display: inline-block; 
-    position: relative; 
-    width: 150px; 
-    height: 150px; 
-    overflow: hidden; 
-    border-radius: 50%; 
-} 
-.circle img { 
-    width: 100%;
-    height: 100%; 
-}
-.itemH4{
-    position: absolute;
-    margin-top: 5px;
-    font-size: 110%;
-    width: 151px;
-    text-align: center;
-    z-index: 5;
-    color: white;
-    white-space: initial;
-}
-.itemText{
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 25px;
-    z-index: 5;
-    position: absolute;
-    bottom: 5px;
-    height: 30%;
-    width: 100%;
-}
+        
+    .itemBox{
+        height:151px;
+        width: 151px;
+        border: 1px solid green;
+        border-radius: 50%;
+        margin-right: 20px;
+        position: relative;
+    } 
+    .circle { 
+        display: inline-block; 
+        position: relative; 
+        width: 150px; 
+        height: 150px; 
+        overflow: hidden; 
+        border-radius: 50%; 
+    } 
+    .circle img { 
+        width: 100%;
+        height: 100%; 
+    }
+    .itemH4{
+        position: absolute;
+        margin-top: 5px;
+        font-size: 110%;
+        width: 151px;
+        text-align: center;
+        z-index: 5;
+        color: white;
+        white-space: initial;
+        overflow-y: hidden;
+    }
+    .itemText{
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 25px;
+        z-index: 5;
+        position: absolute;
+        bottom: 5px;
+        height: 30%;
+        width: 100%;
+    }
 
-.itemP{
-    display: none;
-}
+    .itemP{
+        display: none;
+    }
 
-.projViewBtn{
-    z-index: 100;
-    height: 150px;
-    width: 150px;
-    left: 0;
-    position: absolute;
-    background-color: rgba(0,0,0,0);
-    border: none;
-}
+    .projViewBtn{
+        z-index: 100;
+        height: 150px;
+        width: 150px;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0,0,0,0);
+        border: none;
+    }
 
 
-.scroll::-webkit-scrollbar {
-    height: 18px;
-}
+    .scroll::-webkit-scrollbar {
+        height: 18px;
+    }
 
-#displayList{
-    display: flex;
-    width: 70%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: none;
-    scroll-y: none;
-    white-space: nowrap;
-    height: 180px;
-    margin: 0 auto;
-    touch-action: auto;
-}
+    #displayList{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: none;
+        white-space: nowrap;
+        height: 170px;
+        margin: 0 auto;
+        touch-action: auto;
+    }
+    #footerBlur{
+        z-index: 10;
+    }
+
+    #footP{
+        margin-top:20px;
+        color: white;
+        font-size: 90%;
+        width: 60%;
+        left: 0;
+        padding-left: 10px;
+    }
+
+
+
+
+
+    .modal-content_proj{
+        width: 80%;
+        height: 80%;
+        min-height: 600px;
+        max-height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    #modalTitle{
+        margin: 0 auto;
+        width: 100%;
+        font-size:200%;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    #modalAbout{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #frameDiv{
+        width: 100%;
+        height:60%;
+    }
+    #modalView{
+        width:90%;
+        height: 100%;
+        top: 0;
+    }
+    #projBtnSet{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #projModal{
+        z-index:10000;
+    }
 }

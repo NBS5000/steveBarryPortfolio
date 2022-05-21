@@ -71,7 +71,7 @@ footer {
     /* min-height: 4vh; */
     position: fixed;
     bottom: 0;
-    z-index: 200;
+    z-index: 10;
     margin-top: 50px;
 }
 
