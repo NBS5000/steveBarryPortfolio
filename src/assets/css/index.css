@@ -182,3 +182,6 @@ Contact
 #burger2{
   cursor: pointer;
 }
+#wideContact{
+    margin: 0;
+}
