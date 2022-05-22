@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## Portfolio - Steve Barry
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## <span style="color:green"> The Task</span>
 
-## Available Scripts
+The task was to update our portfolio to be rebuilt using React.js
 
-In the project directory, you can run:
+### ⭐ ⭐ S.T.A.R. ⭐ ⭐
 
-### `npm start`
+**SITUATION**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Previous iterations have all been built with a standard HTML backbone. This assignment was to rebuilding using the React.js framework.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**TASK**
 
-### `npm test`
+Provide a portfolio that demonstrates our technical skills, as well as our design skills, and links to our professional profiles and work. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**ACTION**
 
-### `npm run build`
+Writing of a solution to resolve the situation, including:
+* Layout
+  * *Layout is responsive and functional on various screen sizes*
+  * *Polished and attractive design*
+  * *Background fade follows mouse movement*
+  * *Gently moving parts to give a relaxed look and feel*
+  * *Sections borders narrowed for a more accented look*
+  * *Logical layout*
+  * *Improved code visualisation*
+  * *Error free loading*
+  * *Favicon designed and added*
+  * *Thorough comments*
+  * *Intuitive design*
+* Javascript
+  * *Built with the React.js framework*
+  * *Error free performance*
+  * *Multiple functions to separate aspects of code*
+  * *Thorough comments*
+* Employer Ready
+  * *Updated and streamlined resume*
+  * *LinkedIn updated*
+  * *Github updated* 
+* GIT
+  * *Numerous commits to track changes in code*
+  * *Code added to public repository and Github Pages for public viewing*
+* Functionality
+  * *Deployed to Heroku for future MongoDb integration to complete the MERN stack*
+  * *Users are presented with a responsive list of projects and repos*
+  * *Users can preview an application by clicking on an image,this will bring up a modal screen with a preview of the page, together with links to the deployed application and the repo*
+  * *Multiple ways to contact me, including a downloadable resume and a link to an online copy*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**RESULT**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The end code is stored on Github, deployed on Heroku, and publicly available and viewable. This result meets all requirements set out.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <span style="color:green"> The Outcome</span>
 
-### `npm run eject`
+As all items stipulated in the assignment document are completed, the task is now complete. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can view the finished product [HERE](https://nbs-portfolio.herokuapp.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Alternatively, here is a screenshot:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> ![Screenshot of Portfolio 3 page](./src/assets/images/screen.png "Screenshot of Portfolio 3 page")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
+<p style="text-align:center;">Written by <span style="font-style:italic">Steve Barry</span> - Due date 28/4/2022</p>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p style="text-align:center;">© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.</p>
