@@ -23,7 +23,7 @@ Media CSS file
         padding-left:20px;
     }
 }
-@media screen and (max-width:900px) and (min-width:550px) {
+/* @media screen and (max-width:900px) and (min-width:550px) {
     h3{
         margin: 0;
         margin-top: 25px;
@@ -51,8 +51,8 @@ Media CSS file
     #displayList{
         width: 80%;
     }
-}
-@media screen and (max-width:550px) {
+} */
+@media screen and (max-width:900px) {
     body{
         overflow-y: visible;
     }
