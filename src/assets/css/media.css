@@ -71,6 +71,7 @@ Media CSS file
         animation-iteration-count: 999;
         margin:1%;
         position: fixed;
+        margin-bottom: 5px;
     }
     .aboutP{
         margin-top: 2vh;
