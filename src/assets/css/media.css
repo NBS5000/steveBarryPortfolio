@@ -213,9 +213,9 @@ Media CSS file
         margin-top:20px;
         color: white;
         font-size: 90%;
-        width: 60%;
-        left: 0;
-        padding-left: 10px;
+        width: 100%;
+        /* left: 0; */
+        padding: 0 10px;
     }
 
 
